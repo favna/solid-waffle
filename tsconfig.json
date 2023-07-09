@@ -1,0 +1,16 @@
+{
+    "extends": "@sapphire/ts-config/extra-strict",
+    "compilerOptions": {
+        "rootDir": "./src",
+        "outDir": "./dist",
+        "incremental": false,
+        "declaration": false,
+        "declarationMap": false,
+        "sourceMap": false,
+        "resolveJsonModule": true,
+        "noEmitHelpers": false,
+
+        "moduleResolution": "Node16"
+    },
+    "include": ["src"]
+}
